@@ -39,3 +39,25 @@ __Collaboration:__ I work well in team settings, valuing communication and colla
 ---
 *While I am currently focused on studying JavaScript and building personal projects, my background in economics provides a solid foundation in analytical thinking and problem-solving. I am actively working on improving my coding skills and applying new concepts through various projects.*  
 <br>
+
+### Code
+---
+Example Solution from &nbsp; https://www.codewars.com:  
+```
+function updateLight(current) {
+  switch(current) {
+      case 'red': return 'green';
+      case 'yellow': return 'red';
+      case 'green': return 'yellow';
+  }
+}
+```  
+GitHub project: &nbsp; https://github.com/Sfincs2023/rsschool-cv
+<br><br>
+
+### Languages
+---
+* Ukrainian
+* Russian
+* English
+* Spanish
