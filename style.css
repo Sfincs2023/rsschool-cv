@@ -1,3 +1,48 @@
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: rgb(1, 11, 19);
+  overflow: hidden;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1024px;
+  margin: 20px auto;
+  padding: 0 20px;
+}
+
+.logo {
+  font-family: "Manufacturing Consent", system-ui;
+  font-weight: 400;
+  font-size: 48px;
+  color: Crimson;
+}
+
+.navigation__list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.navigation__item {
+  margin-left: 20px;
+}
+
+.navigation__link {
+  font-size: 18px;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.navigation__link:hover {
+  color: darkcyan;
 }
