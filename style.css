@@ -1,3 +1,272 @@
 body {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+h1 {
+  color:gainsboro;
+}
+
+h2 {
+  margin: 0;
+  font-family: "Manufacturing Consent", system-ui;
+  font-size: 32px;
+  color:firebrick;
+}
+
+h4 {
+  margin: 0;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: firebrick;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.6;
+  color: aliceblue;
+}
+
+.wrapper {
+  max-width: 1440px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.header {
+ background-color: rgb(1, 11, 19); 
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 30px 20px 60px;
+}
+
+.logo {
+  font-family: "Manufacturing Consent", system-ui;
+  font-weight: 400;
+  font-size: 60px;
+  color: Crimson;
+}
+
+.navigation__list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.navigation__item {
+  margin-left: 40px;
+}
+
+.navigation__link {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  color:gainsboro;
+}
+
+.navigation__link:hover {
+  color:coral;
+}
+
+.intro {
+   background-color: rgb(1, 11, 19);
+}
+
+.intro__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.intro__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items:baseline;
+  padding: 0 10px;
+}
+
+.greeting__text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 32px;
+  line-height: 3;
+}
+
+.greeting__name {
+  color: darkcyan;
+}
+
+.contacts__item {
+  color:gainsboro;
+}
+
+.contacts__list {
+  list-style: none;
+  padding: 0;
+}
+
+.contacts__item {
+  font-size: 18px;
+  line-height: 2;
+}
+
+.contact-em {
+  color: darkcyan;
+}
+
+.picture {
+  display: flex;
+  justify-content: center;
+}
+
+.my-picture {
+  width: 400px;
+}
+
+.about-me {
+  padding: 40px 10px 10px;
+  background-color:slategrey;
+}
+
+.about-me__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.about-me__list {
+  list-style: none;
+  color: rgb(29, 50, 50);
+}
+
+.education {
+  padding: 0 10px 10px;
+  background-color: slategrey;
+}
+
+.education__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.experience {
+  padding: 0 10px 10px;
+  background-color: slategrey; 
+}
+
+.experience__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.experience__list {
+  color: aliceblue;
+}
+
+.experience__list {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.projects {
+  padding: 0 10px 10px;
+  background-color: slategrey; 
+}
+
+.projects__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.projects__list {
+  color: rgb(5, 50, 50);
+}
+
+.project__link {
+  font-size: 20px;
+  color:rgb(5, 50, 50);
+  line-height: 2;
+}
+
+.code {
+  padding: 0 10px 10px;
+  background-color: slategrey; 
+}
+
+.code__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.code__example {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: aliceblue;
+  font-size: 18px;
+  background-color:firebrick;
+  max-width: 550px;
+  padding: 30px 0 15px;
+}
+
+.languages {
+  padding: 0 10px 10px;
+  background-color: slategrey;
+}
+
+.languages__container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.languages__list {
+  display: flex;
+  color: aliceblue;
+}
+
+.languages__item {
+  font-size: 20px;
+  line-height: 1.5;
+  margin-right: 50px;
+}
+
+.footer {
+  background-color:rgb(1, 11, 19);
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.my-github {
+  display: flex;
+  align-items:last baseline;
+}
+
+.rs-logo {
+  width: 100px;
+}
+
+.github-logo {
+  width: 60px;
+  padding-top: 10px;
+}
+
+.my-github__year {
+  font-size: 16px;
+  margin: 0 0 0 30px;
 }
