@@ -46,7 +46,7 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1124px;
+  max-width: 1300px;
   margin: 0 auto;
   padding: 30px 20px 60px;
 }
@@ -65,7 +65,7 @@ p {
 }
 
 .navigation__item {
-  margin-left: 20px;
+  margin-left: 40px;
 }
 
 .navigation__link {
@@ -86,7 +86,7 @@ p {
 .intro__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -136,36 +136,37 @@ p {
 }
 
 .about-me {
-  padding: 40px 10px;
+  padding: 40px 10px 10px;
   background-color:slategrey;
 }
 
 .about-me__container {
-  max-width: 1024px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 .about-me__list {
+  list-style: none;
   color: rgb(29, 50, 50);
 }
 
 .education {
-  padding: 0 10px 40px;
+  padding: 0 10px 10px;
   background-color: slategrey;
 }
 
 .education__container {
-  max-width: 1024px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
 .experience {
-  padding: 0 10px 40px;
+  padding: 0 10px 10px;
   background-color: slategrey; 
 }
 
 .experience__container {
-  max-width: 1024px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -179,12 +180,12 @@ p {
 }
 
 .projects {
-  padding: 0 10px 40px;
+  padding: 0 10px 10px;
   background-color: slategrey; 
 }
 
 .projects__container {
-  max-width: 1024px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -199,12 +200,12 @@ p {
 }
 
 .code {
-  padding: 0 10px 40px;
+  padding: 0 10px 10px;
   background-color: slategrey; 
 }
 
 .code__container {
-  max-width: 1024px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -218,12 +219,12 @@ p {
 }
 
 .languages {
-  padding: 0 10px 40px;
+  padding: 0 10px 10px;
   background-color: slategrey;
 }
 
 .languages__container {
-  max-width: 1024px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -238,3 +239,34 @@ p {
   margin-right: 50px;
 }
 
+.footer {
+  background-color:rgb(1, 11, 19);
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.my-github {
+  display: flex;
+  align-items:last baseline;
+}
+
+.rs-logo {
+  width: 100px;
+}
+
+.github-logo {
+  width: 60px;
+  padding-top: 10px;
+}
+
+.my-github__year {
+  font-size: 16px;
+  margin: 0 0 0 30px;
+}
