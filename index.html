@@ -12,33 +12,135 @@
 <body>
   <div class="wrapper">
     <header class="header">
-      <div class="logo">Sfincs</div>
-      <nav class="navigation">
-        <ul class="navigation__list">
-          <li class="navigation__item">
-            <a class="navigation__link" href="">About me</a>
-          </li>
-          <li class="navigation__item">
-            <a class="navigation__link" href="">Education</a>
-          </li>
-          <li class="navigation__item">
-            <a class="navigation__link" href="">Experience</a>
-          </li>
-          <li class="navigation__item">
-            <a class="navigation__link" href="">Projects</a>
-          </li>
-          <li class="navigation__item">
-            <a class="navigation__link" href="">Code</a>
-          </li>
-          <li class="navigation__item">
-            <a class="navigation__link" href="">Languages</a>
-          </li>
-          <li class="navigation__item">
-            <a class="navigation__link" href="">Contact</a>
-          </li>
-        </ul>
-      </nav>
+      <div class="header__container">
+        <div class="logo">Sfincs</div>
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a class="navigation__link" href="#about-me">About me</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#education">Education</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#experience">Experience</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#projects">Projects</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#code">Code</a>
+            </li>
+            <li class="navigation__item">
+              <a class="navigation__link" href="#languages">Languages</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
+    <main class="main">
+      <section class="intro">
+          <div class="intro__container">
+            <div class="intro__info">
+              <div class="greeting">
+                <h1 class="greeting__text">Hi, my name is <span class="greeting__name">Aleksey</span><br>I'm an <span class="greeting__name">RS School</span> student</h1>
+              </div>
+              <div class="contacts">
+                <ul class="contacts__list">
+                  <li class="contacts__item"><em class="contact-em">srs-school username:</em
+                    > @Sfincs2023</li>
+                  <li class="contacts__item"><em class="contact-em">email:</em> naumenko.aleksey@gmail.com</li>
+                </ul>
+              </div>
+            </div>
+            <div class="picture">
+              <img class="my-picture" src="my-picture.jpg" alt="my-pecture">
+            </div>
+          </div>
+      </section>
+      <section id="about-me" class="about-me">
+        <div class="about-me__container">
+          <h2>About me</h2>
+          <p>My primary goal is to become a proficient web developer, focusing on both front-end and back-end. I am dedicated to building interactive, user-friendly web applications and continuously improving my coding skills.</p>
+          <ul class="about-me__list">
+            <li>
+              <h4>Priorities:</h4>
+              <p><em>Learning and Growth</em>: I am committed to continuous learning and adapting to new technologies. <em>Quality</em>: I strive to write clean, efficient, and maintainable code. <em>Problem-Solving</em>: I enjoy tackling challenges and finding innovative solutions.</p>
+            </li>
+            <li>
+              <h4>Strengths:</h4>
+              <p><em>Analytical Skills</em>: My background in economics has honed my ability to analyze data and make informed decisions. <em>Adaptability</em> I quickly adapt to new tools, frameworks, and environments. <em>Attention to Detail</em> I ensure high-quality output by paying close attention to details. <em>Collaboration</em> I work well in team settings, valuing communication and collaboration.</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="education" class="education">
+        <div class="education__container">
+          <h2>Education</h2>
+          <p>Master’s degree in Economics. 2000 - 2006 ZGIA.</p>
+        </div>
+      </section>
+      <section id="experience" class="experience">
+        <div class="experience__container">
+          <h2>Experience</h2>
+          <p>While I am currently focused on studying JavaScript and building personal projects, my background in economics provides a solid foundation in analytical thinking and problem-solving. I am actively working on improving my coding skills and applying new concepts through various projects. But I already have some experience with:</p>
+          <ul class="experience__list">
+            <li class="experience__item">creating HTML file</li>
+            <li class="experience__item">styling with CSS</li>
+            <li class="experience__item">writing JavaScript code</li>
+          </ul>
+        </div>
+      </section>
+      <section id="projects" class="projects">
+        <div class="projects__container">
+          <h2>My projects</h2>
+          <ul class="projects__list">
+            <li class="projects__item">
+              <a class="project__link" href="https://github.com/Sfincs2023/basic-js-ds" target="_blank">basic-js-ds</a>
+            </li>
+            <li class="projects__item">
+              <a class="project__link" href="https://github.com/Sfincs2023/clean-code-s1e1" target="_blank">clean-code-s1e1</a>
+            </li>
+            <li class="projects__item">
+              <a class="project__link" href="https://github.com/Sfincs2023/core-js-conditions-n-loops-tasks" target="_blank">core-js-conditions-n-loops-tasks</a>
+            </li>
+            <li class="projects__item">
+              <a class="project__link" href="https://github.com/Sfincs2023/core-js-arrays" target="_blank">core-js-arrays</a>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="code" class="code">
+        <div class="code__container">
+          <h2>Code</h2>
+          <p>Example solution from &nbsp;<a class="project__link" href="https://www.codewars.com/dashboard" target="_blank">https://www.codewars.com</a></p>
+          <pre class="code__example">
+            var capitals = function (word) {
+	            let indexOfCap = [];
+  
+              for (let i = 0; i < word.length; i++) {
+                if (word[i] === word[i].toUpperCase()) {
+                  indexOfCap.push(i);
+                }
+              }
+
+              return indexOfCap;
+            };
+          </pre>
+        </div>
+      </section>
+      <section id="languages" class="languages">
+        <div class="languages__container">
+          <h2>Languages</h2>
+          <ul class="languages__list">
+            <li class="languages__item">Ukrainian</li>
+            <li class="languages__item">Russian</li>
+            <li class="languages__item">English</li>
+            <li class="languages__item">Spanish</li>
+          </ul>
+        </div>
+      </section>
+    </main>
   </div>
 </body>
 </html>
